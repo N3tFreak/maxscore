@@ -1,13 +1,13 @@
 # README for Username Validation Script
 
 ## Author Information
-- **Name:** [Your Full Name]
-- **Course:** [Course Number and Name]
+- **Name:** Ben Grossman
+- **Course:** CPSC 298 - Intro to Nix
 - **Assignment:** Maxscore Assignment
-- **Date:** [Date of Completion]
+- **Date:** 11/10/2025
 
 ## Program Description
-[Write 2-3 sentences in your own words describing what this script does and its purpose. Explain the problem it solves and how it works at a high level.]
+This Bash script reads 5 integer scores from standard input, determines the highest score, and prints the difference between each score and the maximum.
 
 ## Usage
 To run the script interactively:
@@ -21,21 +21,18 @@ To test with the provided input file:
 ```
 
 ## How the Script Works
-[Explain in 3-5 sentences how your script works. Include information about:]
-- How you read and store numbers in an array
-- How you loop through the array to find the maximum value
-- How you calculate and display the difference between each score and the highest
+
+The script reads five scores into an array, finds the highest value using a loop, and then calculates and displays how much each score differs from the maximum.
 
 ## Testing Results
-[Describe your testing process and results. Include:]
-- Example successful inputs and results
-- How you used the maxscore-input file to test
+
+It was tested using the maxscore-input file with five sample numbers, producing the correct highest score and differences.
 
 ## Challenges and Solutions
-[Optional: Describe any challenges you encountered while creating this script and how you solved them. This could include debugging issues, arrays, or Git workflow problems.]
-
+Nano wasn't letting me type part of it.
 ## Resources
-[List any resources you used (class slides, ChatGPT, etc.). Please refer to the course syllabus for more details on citations.]
+-Chatgpt to help with nano issue
+-my neighbor Abe for helping me out
 
 ## License
 This project is part of coursework for Chapman University and is intended for educational purposes.
